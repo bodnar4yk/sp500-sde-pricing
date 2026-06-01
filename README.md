@@ -64,8 +64,7 @@ To validate the analytical framework, the project simulates $N$ price trajectori
 4. Run the script:
    python sde_pricing_model.py
    
-Sample Output
-
+## Sample Output
 Data: (812,)
 Params: kappa=0.1245, mu=4850.23, sigma=0.1532
 Expected E[XT]: 5120.45
@@ -79,6 +78,6 @@ n= 100000 | m_hat=412.48000 | CI=[410.85000, 414.11000] | inside range? True
 Note: As $N$ increases, the Monte Carlo estimate ($\hat{m}$) converges toward the analytical solution, and the Confidence Interval narrows down, proving the mathematical consistency of the model.
 
 ### 📂 Project Structure
-* sde_pricing_model.py   # Main Python script containing SDE calibration, pricing, and simulation
-* README.md              # Project documentation
-* requirements.txt       # Dependencies
+* sde_pricing_model.py   -  Main Python script containing SDE calibration, pricing, and simulation
+* README.md              -  Project documentation
+* requirements.txt       -  Dependencies
